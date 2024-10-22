@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 984px;
+  height: 983px;
+  top: 194px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+}
