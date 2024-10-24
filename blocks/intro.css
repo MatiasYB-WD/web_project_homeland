@@ -1,10 +1,11 @@
 .intro {
+  width: 830px;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: #FFFFFF;
   margin-top: 92px;
-  margin-right: 148;
+  margin-left: 148px;
 }
 
 .intro_title {
@@ -14,14 +15,37 @@
   line-height: 58px;
   text-align: left;
   color: #FFFFFF;
+  margin: 0;
 }
 
 .intro_texts {
-  width: 830px;
-  height: 173px;
+  text-align: left;
   color: #FFFFFF;
 }
-
+.intro_text__one{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 39px;
+  margin-bottom: 10px;
+}
 .intro_text__two {
-  
+  display: flex;
+  justify-content: flex-end;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  margin:0;
+}
+.intro_text__three {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 0;
 }

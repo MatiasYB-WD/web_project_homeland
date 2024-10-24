@@ -1,5 +1,9 @@
 .footer {
-
+display: flex;
+align-items: flex-end;
+justify-content: center;
+margin-top: 92px;
+margin-bottom: 24px;
 }
 
 .footer_copyright {
