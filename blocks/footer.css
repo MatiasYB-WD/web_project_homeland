@@ -7,5 +7,22 @@ margin-bottom: 24px;
 }
 
 .footer_copyright {
-  color: #FFFFFF;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+text-align: right;
+color: #FFFFFF;
+margin: 0px;
+}
+
+@media screen and (max-width: 768px){
+
+  .footer{
+    margin-top: 88px;
+    margin-bottom: 0px;
+  }
+  .footer_copyright {
+    margin-bottom: 24px;
+  }
 }

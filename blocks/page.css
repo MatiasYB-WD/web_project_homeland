@@ -1,15 +1,17 @@
   .page {
     background-color: #2A2C2F;
-    width: 1280 px;
-    height: 100%;
-    margin: 0;
+    max-width: 1280px;
+    height: 2008px;
+    margin: 0 auto;
     padding: 0;
+ 
 }
 
-@media screen and (min-width: 320px) and (max-width: 768){
+@media screen and (max-width: 768px){
  .page {
-    width: 768 px;
-
+    max-width: 768px;
+    max-height: 1742px;
+    
  } 
 
 }
