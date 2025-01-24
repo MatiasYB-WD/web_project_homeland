@@ -1,7 +1,6 @@
   .page {
     background-color: #2A2C2F;
     max-width: 1280px;
-    height: 2008px;
     margin: 0 auto;
     padding: 0;
  
@@ -10,8 +9,6 @@
 @media screen and (max-width: 768px){
  .page {
     max-width: 768px;
-    max-height: 1742px;
-    
  } 
 
 }
