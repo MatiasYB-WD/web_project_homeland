@@ -1,13 +1,14 @@
 .intro {
-  max-width: 830px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  
   color: #FFFFFF;
-  margin-left: 148px;
+  width: 100%;
+  max-width: 830px;
 }
 
-.intro_title {
+.intro__title {
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
@@ -15,17 +16,19 @@
   text-align: left;
   color: #FFFFFF;
   margin: 0;
+  max-width: 830px;
 }
 
-.intro_text__one{
+.intro__text_one{
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   margin-top: 39px;
   margin-bottom: 10px;
+  max-width: 738px;
 }
-.intro_text__two {
+.intro__text_two {
   display: flex;
   justify-content: flex-end;
   font-family: Inter;
@@ -34,8 +37,9 @@
   line-height: 34px;
   text-align: right;
   margin:0;
+  max-width: 732;
 }
-.intro_text__three {
+.intro__text_three {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -43,29 +47,34 @@
   text-align: left;
   margin-top: 32px;
   margin-bottom: 0;
+  max-width: 722;
 }
 
 @media screen and (max-width: 768px){
 
 .intro {
   margin-left: 24px;
-  margin-right: 24px;
   max-width: 720px;
   }
-.intro_title {
+.intro__title {
   font-size: 45px;
   line-height: 49px;
   margin-bottom: 50px;
 }
-.intro_text__one {
+.intro__text_one {
   margin-top: 0px;
   margin-bottom: 26px;
   }
-.intro_text__three {
+.intro__text_three {
   margin-bottom: 0px;
 }
 }
 
 @media screen and (max-width: 320px){
-  
+  .intro {
+    margin-left: auto;
+    max-width: 288px;
+    width: 100%;
+    
+  }
 }
