@@ -17,7 +17,7 @@
   max-width: 830px;
 }
 
-.intro__text_one{
+.intro__text-one{
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
   max-width: 738px;
 }
-.intro__text_two {
+.intro__text-two {
   display: flex;
   justify-content: flex-end;
   font-family: Inter;
@@ -37,7 +37,7 @@
   margin:0;
   max-width: 732px;
 }
-.intro__text_three {
+.intro__text-three {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -54,8 +54,8 @@
   margin-left: 80px;
   }
  }
-@media screen and (max-width: 768px){
 
+@media screen and (max-width: 768px){
 .intro {
   max-width: 720px;
   margin-left: 24px;
@@ -67,12 +67,11 @@
   font-family: Inter;
   text-align: left;
   }
-.intro__text_one {
+.intro__text-one {
   margin-top: 0px;
   margin-bottom: 26px;
   }
 }
-
 
 @media screen and (max-width: 320px){
   .intro {
