@@ -1,10 +1,14 @@
 .intro {
-  display: flex;
-  flex-direction: column;
   color: #FFFFFF;
   width: 100%;
+  max-width: 984px;
+  margin: auto;
+}
+
+.intro__box {
+  display: flex;
   max-width: 830px;
-  margin-left: 148px;
+  flex-direction: column;
 }
 
 .intro__title {
