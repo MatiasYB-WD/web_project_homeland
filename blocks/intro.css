@@ -55,14 +55,13 @@
 @media screen and (max-width: 984px){
 .intro {
   justify-content: center;
-  margin-left: 80px;
   }
  }
 
 @media screen and (max-width: 768px){
 .intro {
   max-width: 720px;
-  margin-left: 24px;
+
   }
 .intro__title {
   font-size: 45px;
