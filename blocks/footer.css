@@ -27,3 +27,9 @@ margin: 0px;
   }
 }
 
+@media screen and (max-width: 320px){
+
+  .footer {
+    margin-top: 15px;
+  }
+}

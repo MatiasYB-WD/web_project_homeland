@@ -1,11 +1,7 @@
 .places {
-    margin: 62px auto 0;
+    margin: 50px auto 0;
     max-width: 320px;
 
-}
-
-.place {
-    justify-items: center;
 }
 
 .place__title {
@@ -23,10 +19,9 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 14.52px;
-    letter-spacing: 12%;
     margin: 30px auto 0;
     max-width: 288px; 
-    color: #FFFFFF;
+    color: #AAAAAA;
 }
 
 .place__author {
@@ -34,58 +29,118 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0%;
     margin: 8px auto 0;
     max-width: 288px;
     color: #FFFFFF; 
 }
 
-.place__author {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0%;
-    margin: 0 auto 0;
-    max-width: 288px;
-    color: #FFFFFF;
+.place__author__jefe {
+    margin: 0;
+}
+
+.place__author__gerente {
+    margin: 0;
 }
 
 .place__image {
     transition: all 0.3s;
     width: 100%;
     max-width: 320px;
+    margin: 30px 0 0;
 }
 
-.place__text {
+.place__texts {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
-    letter-spacing: 0%;
-    margin: 5 auto 5;
+    margin: 30px auto 30px;
     max-width: 288px;
     color: #FFFFFF;
     gap: 25px;
 }
 
+.place__text__first {
+    margin-bottom: 25px;
+}
+
+.place__text__second {
+    margin: 0;
+}
+.place__text__thirst {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.place__button {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    max-width: 100%;
+    width: calc(100% - 32px);
+    height: 48px;
+    background-image:linear-gradient(to left , #003A7B , #0278FE);
+    margin: 0 16px 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 @media screen and (min-width: 550px) {
     .places {
         max-width: 720px;
+
     }
+    
     .place {
         display: grid;
         grid-template-columns: 340px 1fr;
         grid-template-rows: auto 340px auto;
+        column-gap: 28px;
+        row-gap: 48px;
+    }
+
+    .place__url{ 
+        margin:0;
+        margin-bottom:8px;
+    }
+    .place__author {
+        margin:0;
+        max-width: 352px;
+    }
+
+    .place__title{
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 340px;
+
     }
     .place__texts {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 4;
+        margin: 0;
+        max-width: 352px;
+
+    }
+    .place__text__first {
+        margin: 0 0 25px;
+        
+    }
+        .place__text__second {
+        margin: 0;
     }
      .place__image {
         max-width: 340px;
+        margin: 0;
+     }
+
+     .place__button {
+        margin: 0;
+        max-width: 289px;
      }
 }
 
