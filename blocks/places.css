@@ -73,6 +73,11 @@
 }
 
 .place__button {
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    justify-content: center;
+    border: none;
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -80,10 +85,15 @@
     max-width: 100%;
     width: calc(100% - 32px);
     height: 48px;
-    background-image:linear-gradient(to left , #003A7B , #0278FE);
+    background:linear-gradient(to left , #003A7B , #0278FE);
     margin: 0 16px 50px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.place__button:hover {  
+    background:linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+
 }
 
 @media screen and (min-width: 550px) {
@@ -98,12 +108,17 @@
         grid-template-rows: auto 340px auto;
         column-gap: 28px;
         row-gap: 48px;
+        margin-top: 72px;
     }
 
+    .place__authors {
+        align-self: end;
+    }
     .place__url{ 
         margin:0;
         margin-bottom:8px;
     }
+
     .place__author {
         margin:0;
         max-width: 352px;
@@ -115,6 +130,10 @@
         font-size: 42px;
         line-height: 46px;
         max-width: 340px;
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
 
     }
     .place__texts {
